@@ -31,15 +31,15 @@
 Пример выполняемого кода:
 
 try:
-  iter1 = Iterator(100, 200, 0)
+iter1 = Iterator(100, 200, 0)
   
-  for i in iter1:
+for i in iter1:
   
-    print(i, end=' ')
+print(i, end=' ')
     
 except StepValueError:
 
-  print('Шаг указан неверно')
+print('Шаг указан неверно')
 
 iter2 = Iterator(-5, 1)
 
